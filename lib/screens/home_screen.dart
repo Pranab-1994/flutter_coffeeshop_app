@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_coffeeshop_app/widget/home_bottom_bar.dart';
 import 'package:flutter_coffeeshop_app/widget/items_widget.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -144,6 +145,7 @@ class _HomeScreenState extends State<HomeScreen>
           ),
         ),
       ),
+      bottomNavigationBar: const HomeBottomBar(),
     );
   }
 }
